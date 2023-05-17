@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_9"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/txtwelcome"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        android:text="WELCOME TO THE AID GROUP"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/input_bbg"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="10px"
+        android:ems="10"
+        android:hint="Enter Username"
+        android:inputType="text"
+        android:shadowColor="@color/black"
+        android:textColor="#161617"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtwelcome" />
+
+    <EditText
+        android:id="@+id/edtlgpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/input_bbg"
+        android:drawableLeft="@drawable/baseline_security_24"
+        android:drawablePadding="10px"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="text"
+        android:textColor="#0B0A0A"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/edtusername"
+        app:layout_constraintTop_toBottomOf="@+id/edtusername" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button"
+        android:text="LOGIN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/edtlgpass"
+        app:layout_constraintTop_toBottomOf="@+id/edtlgpass" />
+
+    <TextView
+        android:id="@+id/txtcreateanaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button"
+        android:text="Create an account"
+        android:textColor="#121111"
+        app:layout_constraintEnd_toStartOf="@+id/txtttsn"
+        app:layout_constraintStart_toStartOf="@+id/btnlogin"
+        app:layout_constraintTop_toBottomOf="@+id/btnlogin" />
+
+    <TextView
+        android:id="@+id/txtttsn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/button"
+        android:text="Signup"
+        android:textColor="@color/design_default_color_error"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtcreateanaccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtcreateanaccount" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

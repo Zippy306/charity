@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img_1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/img_1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DispayFirebase."
+        tools:targetApi="31">
+        <activity
+            android:name=".Needy"
+            android:exported="false" />
+        <activity
+            android:name=".Helping"
+            android:exported="false" />
+        <activity
+            android:name=".LifeACircle"
+            android:exported="false" />
+        <activity
+            android:name=".Videos"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Volunteers"
+            android:exported="false" />
+        <activity
+            android:name=".DonorsRef"
+            android:exported="false" />
+        <activity
+            android:name=".Jobs"
+            android:exported="false" />
+        <activity
+            android:name=".Visitations"
+            android:exported="false" />
+        <activity
+            android:name=".Shelter"
+            android:exported="false" />
+        <activity
+            android:name=".Scholaships"
+            android:exported="false" />
+        <activity
+            android:name=".UserDonor"
+            android:exported="false" />
+        <activity
+            android:name=".ViewUsesDonors"
+            android:exported="false" />
+        <activity
+            android:name=".UserReceiver"
+            android:exported="false" />
+        <activity
+            android:name=".ViewUsersReceivers"
+            android:exported="false" />
+        <activity
+            android:name=".DonorsList"
+            android:exported="false" />
+        <activity
+            android:name=".ReceiversList"
+            android:exported="false" />
+        <activity
+            android:name=".LessFortunate"
+            android:exported="false" />
+        <activity
+            android:name=".Refugees"
+            android:exported="false" />
+        <activity
+            android:name=".BloodDonation"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Anne"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewUsers"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

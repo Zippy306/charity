@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/girl"
+    tools:context=".Register">
+
+    <Button
+        android:id="@+id/btnregnew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/button"
+        android:text="REGISTER"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txtredy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/txtredy" />
+
+    <EditText
+        android:id="@+id/edtnameregnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/input_bbg"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Username"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView102" />
+
+    <EditText
+        android:id="@+id/edtmailregnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/input_bbg"
+        android:drawableLeft="@drawable/input_bbg"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/edtnameregnew"
+        app:layout_constraintTop_toBottomOf="@+id/edtnameregnew" />
+
+    <EditText
+        android:id="@+id/edtpassworgregnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/input_bbg"
+        android:drawableLeft="@drawable/input_bbg"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Enterpassword"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/edtmailregnew"
+        app:layout_constraintTop_toBottomOf="@+id/edtmailregnew" />
+
+    <TextView
+        android:id="@+id/textView102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/button"
+        android:shadowColor="@color/black"
+        android:text="REGISTRATION"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtredy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/input_bbg"
+        android:drawableLeft="@drawable/input_bbg"
+        android:text="Already Have an Account"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtpassworgregnew" />
+</androidx.constraintlayout.widget.ConstraintLayout>

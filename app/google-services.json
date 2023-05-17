@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "690564276768",
+    "project_id": "dispay-firebase",
+    "storage_bucket": "dispay-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690564276768:android:337aaa02d10a149f095245",
+        "android_client_info": {
+          "package_name": "com.example.dispayfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690564276768-5nh1idf1lar3pi10cnatrud6flblj5sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMbMJoCsa5YBRNrm_LOzLDhY_vAH_UzDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690564276768-5nh1idf1lar3pi10cnatrud6flblj5sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

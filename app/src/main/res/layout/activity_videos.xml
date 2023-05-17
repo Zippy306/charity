@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_16"
+    tools:context=".Videos">
+
+    <Button
+        android:id="@+id/btnlife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="LIFE, A CIRCLE"
+        app:layout_constraintStart_toStartOf="@+id/btnneedy"
+        app:layout_constraintTop_toBottomOf="@+id/btnneedy" />
+
+    <Button
+        android:id="@+id/bynhelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="HELPING"
+        app:layout_constraintStart_toStartOf="@+id/btnlife"
+        app:layout_constraintTop_toBottomOf="@+id/btnlife" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="53dp"
+        android:background="@android:drawable/button_onoff_indicator_off"
+        android:text="Here are some vides we should learn from."
+        android:textColor="@color/black"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnneedy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="FEEDING THE NEEDY"
+        app:layout_constraintStart_toStartOf="@+id/textView112"
+        app:layout_constraintTop_toBottomOf="@+id/textView112" />
+
+    <Button
+        android:id="@+id/btnbackvideos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="BACK"
+        app:layout_constraintStart_toStartOf="@+id/bynhelp"
+        app:layout_constraintTop_toBottomOf="@+id/bynhelp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
